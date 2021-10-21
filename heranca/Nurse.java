@@ -1,18 +1,16 @@
-package com.company;
-
 import java.util.List;
 
-public class Enfermeiro {
+public class Nurse {
     private String name;
     private float salary;
-    private List beneficios;
+    private List benefits;;
 
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
-        this.nome = name;
+        this.name = name;
     }
 
     public float getLiquidSalary() {

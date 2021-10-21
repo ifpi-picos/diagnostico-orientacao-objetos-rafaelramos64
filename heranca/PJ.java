@@ -1,5 +1,3 @@
-package com.company;
-
 
 import java.util.List;
 
@@ -21,7 +19,7 @@ public class PJ extends Nurse {
 
 
     @Override
-    public float getLiquidSalario() {
-        return super.getLiquidSalario() - super.getLiquidSalario() * 0.05f;
+    public float getLiquidSalary() {
+        return super.getLiquidSalary() - super.getLiquidSalary() * 0.05f;
     }
 }
